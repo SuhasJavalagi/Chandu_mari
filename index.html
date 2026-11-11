@@ -7,7 +7,7 @@
 <title>Happy Birthday 🐼💖</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Caveat:wght@500;700&family=Playfair+Display:wght@600;700&family=Inter:ital,wght@0,400;0,600;1,400&family=Homemade+Apple&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Caveat:wght@500;700&family=Playfair+Display:wght@600;700&family=Inter:ital,wght@0,400;0,600;1,400&family=Homemade+Apple&family=Nanum+Pen+Script&family=Patrick+Hand&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
 <style>
   :root { --ink:#2b2b2b; --pink:#ff5c8f; --soft:#ffd1e1; --text:#4a3a40; --hand:'Caveat','Segoe Print','Bradley Hand','Comic Sans MS',cursive; --ease:cubic-bezier(.22,1,.36,1); }
   * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
@@ -372,7 +372,7 @@
       url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .45  0 0 0 0 .38  0 0 0 0 .3  0 0 0 .06 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
     box-shadow:0 1px 1px rgba(0,0,0,.05), 0 2px 0 -1px #f4efe3, 0 3px 1px -1px rgba(0,0,0,.05),
       0 22px 44px rgba(122,31,69,.16);
-    font-family:'Caveat','Segoe Print','Bradley Hand',cursive; font-size:18px; line-height:var(--lh);
+    font-family:'Patrick Hand','Segoe Print','Comic Sans MS',cursive; font-size:18px; letter-spacing:.2px; line-height:var(--lh);
     animation:unfoldL 1s var(--ease) both; }
   @keyframes unfoldL { from { opacity:0; transform:translateY(30px) rotate(-1deg); } }
   /* binder holes */
@@ -382,7 +382,7 @@
   .letter > * { position:relative; z-index:1; }
   .letter .holes { position:absolute; }
 
-  .letter .date { text-align:right; font-size:15px; color:#5b6694; margin:0; line-height:var(--lh); }
+  .letter .date { text-align:right; font-size:16px; color:#5b6694; margin:0; line-height:var(--lh); }
   .letter-photo { display:flex; justify-content:center; margin:6px 0 14px; }
   .letter-photo .slot { width:135px; margin:0; animation:none; }
   .letter-photo .polaroid p { font-size:15px; }
@@ -391,7 +391,7 @@
   .ruled { background-image:repeating-linear-gradient(180deg, transparent 0 calc(var(--lh) - 4px),
       rgba(110,150,205,.38) calc(var(--lh) - 4px) calc(var(--lh) - 3px), transparent calc(var(--lh) - 3px) var(--lh));
     margin-right:-22px; padding-right:22px; }
-  .letter .dear { font-weight:700; font-size:21px; color:#c2306d; margin:0; min-height:var(--lh); }
+  .letter .dear { font-family:'Dancing Script',cursive; font-weight:700; font-size:24px; color:#c2306d; margin:0; min-height:var(--lh); }
   #typed { margin:0; min-height:var(--lh); }
   #typed p { margin:0 0 var(--lh); font-size:inherit; line-height:inherit; }
   #typed p:last-child { margin-bottom:0; }
@@ -419,7 +419,7 @@
 
   .letter .sign { text-align:right; margin:var(--lh) 0 0; }
   .letter .sign .line1 { display:block; min-height:var(--lh); color:#3b4783; }
-  .letter .sign .line2 { display:block; min-height:var(--lh); font-family:'Homemade Apple','Caveat',cursive; font-size:14px; color:#1d2a63; }
+  .letter .sign .line2 { display:block; min-height:var(--lh); font-family:'Dancing Script',cursive; font-weight:700; font-size:24px; color:#1d2a63; }
   .letter .ps { margin:var(--lh) 0 0; min-height:var(--lh); font-size:16px; color:#5b5a86; }
   .fadein { animation:rise .8s var(--ease) both; }
   .cursor { display:none; }
@@ -901,7 +901,7 @@ Stay the same cute, crazy, beautiful soul you are. I'm so lucky to have you as m
   // Little note under the signature (leave "" to hide)
   ps: "P.S. Now go eat cake. A LOT of cake.",
   // Date written on the letter ("" = today's date)
-  letterDate: "",
+  letterDate: "7th November 2026",
   // Top secret note at the very end
   mystery:
 `🤫`
